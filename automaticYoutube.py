@@ -186,9 +186,6 @@ def organic_find_video(search, name_video, comment, homedir, cwd, headless=False
             timewatch2 = 0
         timewatch_1 = min(1, timewatch)
         timewatch_1 = round(video_length_seconds*timewatch_1)
-        print(timewatch)
-        print(timewatch_1)
-        print(timewatch2)
         time.sleep(min(0,max(10,timewatch_1-10)))
         
         
@@ -242,8 +239,6 @@ def organic_find_video(search, name_video, comment, homedir, cwd, headless=False
                 timewatch = np.random.normal(loc=average_timewatch, scale=sd_timewatch)
                 video_length_seconds = getVideolen(driver)
                 timewatch_1 = round(video_length_seconds*timewatch)
-                print(timewatch)
-                print(timewatch_1)
                 time.sleep(min(0,timewatch_1))
                 elapsed_time = time.time() - start_time
                 if elapsed_time >= timewatch2:
