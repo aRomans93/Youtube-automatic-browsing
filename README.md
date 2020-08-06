@@ -2,7 +2,7 @@
 
 Schedule automatic search and reproduction of youtube videos.
 
-**Important:** You need to download the WerbDriver for your version of Chrome from https://chromedriver.chromium.org/downloads.
+**Important:** You need to download the WebDriver for your version of Chrome from https://chromedriver.chromium.org/downloads.
 
 Dependencies
 ------------
